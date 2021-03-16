@@ -14,6 +14,10 @@ public void setNome(String nome){
 
 public void setCurso(String curso){
     this.curso = curso;
+    if(curso.equalsIgnoreCase("si"))
+        {
+            this.curso = "Sistemas de Informação";
+        }
 }
 
 
