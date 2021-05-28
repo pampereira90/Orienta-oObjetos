@@ -70,7 +70,7 @@ public class Login implements ActionListener {
         label.setText("Ok");
         label.setFont(new Font("Arial", Font.ITALIC, 20));
         label.setForeground(Color.Blue);
-        new TelaInicio();
+        new Welcome();
         
         }else
         {
