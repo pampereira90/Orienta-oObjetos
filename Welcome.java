@@ -4,13 +4,13 @@ import javax.swing.*;
 import java.awt.*;
 
 
-public class TelaInicio{
+public class Welcome{
 
     private JFrame tela;
     private JPanel painel;
     private JLabel lyt;
 
-    public TelaInicio(){
+    public Welcome(){
         
         tela = new JFrame();
         painel = new JPanel();
@@ -34,6 +34,6 @@ public class TelaInicio{
     }
 
     public static void main(String[] args) {
-        new TelaInicio();
+        new Welcome();
     }
 }
